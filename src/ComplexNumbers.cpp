@@ -65,5 +65,3 @@ std::ostream& operator<<(std::ostream& out, const ComplexNumber& a){
        a.imaginary>0 ? out << a.real << '+' << a.imaginary << 'i' : out << a.real << a.imaginary << 'i';
     }
 }
-
-#include "ComplexNumbers.h"
